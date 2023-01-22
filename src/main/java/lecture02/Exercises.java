@@ -4,13 +4,14 @@ import java.util.Scanner;
 
 public class Exercises {
     public static void main(String[] args) {
-        printQuadraticEquation();
+
+        printPineTree();
     }
 
     public static void printName() {
-        String firstName = "Dimitar";
-        String middleName = "Nikolaev";
-        String lastName = "Tarkalanov";
+        String firstName = "Veronika";
+        String middleName = "Plamenova";
+        String lastName = "Gancheva";
 
         String fullName = firstName + " " + middleName + " " + lastName;
 
@@ -18,9 +19,9 @@ public class Exercises {
     }
 
     public static void printTrianglePerimeter() {
-        int a = 1;
-        int b = 4;
-        int c = 5;
+        int a = 2;
+        int b = 3;
+        int c = 4;
 
         int perimeter = a + b + c;
 
@@ -28,7 +29,7 @@ public class Exercises {
     }
 
     public static void printTriangleArea() {
-        int a = 20;
+        int a = 10;
         int b = 5;
 
         int area = (a * b) / 2;
@@ -37,9 +38,10 @@ public class Exercises {
     }
 
     public static void printPineTree() {
-        System.out.println("  *");
-        System.out.println(" ***");
-        System.out.println("*****");
+        System.out.println("   *");
+        System.out.println("  ***");
+        System.out.println(" *****");
+        System.out.println("*******");
     }
 
     public static void printTrianglePerimeterInput() {
@@ -74,9 +76,9 @@ public class Exercises {
 
     public static void printQuadraticEquation() {
         // value of the constants a, b, c
-        double a = 7.2;
-        double b = 5;
-        double c = 9;
+        double a = 6.1;
+        double b = 4;
+        double c = 8;
 
         // declared the two roots
         double root1;
