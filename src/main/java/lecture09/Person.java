@@ -27,7 +27,6 @@ public class Person {
         setAge(egn);
         setBirthDate(egn);
     }
-
     private void setAge(long egn) {
         String birthYear = "19" + Long.toString(egn).substring(0, 2);
         int currentYear = LocalDate.now().getYear();
